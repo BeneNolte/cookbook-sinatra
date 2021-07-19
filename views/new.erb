@@ -1,0 +1,25 @@
+<form action="/recipes" method="post">
+ <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="description">Decription:</label>
+    <input type="description" id="description" name="user_description">
+  </li>
+  <li>
+    <label for="rating">Rating:</label>
+    <textarea id="rating" name="user_rating"></textarea>
+  </li>
+  <li>
+    <label for="prep_time">Prep Time:</label>
+    <textarea id="p_t" name="user_prep_time"></textarea>
+  </li>
+  <li>
+    <label for="done">Done (true or false)</label>
+    <textarea id="done" name="user_done"></textarea>
+  </li>
+ </ul>
+ <input type="submit" value="Send Request">
+</form>
